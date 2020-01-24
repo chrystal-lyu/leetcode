@@ -13,7 +13,7 @@ var lowestCommonAncestor = function(root, p, q) {
 
 // Because it was a biney search tree: 
 // At any node, its left child value is always smaller and right child value is always larger
-// Using this unique property, when traversing the tree compare p and q with the current node
+// Using this unique property, when traversing the tree compare p and q with the current node 
 // If p and q are both larger than the current node, then we go to its right children subtree
 // If p and q are both smaller than the current node, then we go to its left children subtree
 // Until we reach to a node that is one larger/smaller and another smaller/larger (or one of them equals to current node)
